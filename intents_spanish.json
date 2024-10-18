@@ -1,0 +1,39 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola",  "Buenos días", "Buenas tardes"],
+            "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Buen días! ¿En que te podemos colaborar?", "¡Buenas tardes! ¿En que te podemos colaborar?"]
+        },
+        {
+            "tag": "saludo_2",
+            "patterns": ["hola", "buenos dias", "buenas tardes"],
+            "responses": ["¡Hola! ¿Cómo puedo ayudarte hoy?", "¡Buen días! ¿En que te podemos colaborar?", "¡Buenas tardes! ¿En que te podemos colaborar?"]
+        },
+        {
+            "tag": "sin_saludo",
+            "patterns": ["¿Qué tipo de servicios manejan?"],
+            "responses": ["Estos son: \n- Cableado estructurado\n- Soporte tecnico\n- CCCTV\n- Seguridad Informatica\n- Servidores"]
+        },
+        {
+            "tag": "cotizaciónes",
+            "patterns": ["Necesito una cotización", "necesito una cotizacion"],
+            "responses": ["Estos son los servicios que prestamos: \n- Cableado estructurado\n- Soporte tecnico\n- CCCTV\n- Seguridad Informatica\n- Servidores\n En cual de ellos esta interesado","Estos son los servicios que prestamos: \n- Cableado estructurado\n- Soporte tecnico\n- CCCTV\n- Seguridad Informatica\n- Servidores\n En cual de ellos esta interesado."]
+        },
+        {
+            "tag": "cotizaciónes_01",
+            "patterns": ["Estoy interesado en todos los servicios"],
+            "responses": ["Vale si señor estos serian los servicios que ofrecesmos: \n1. Cableado Estructurado\n \t- Diseño e instalación de cableado estructurado(voz, datos, corriente regulada y normal)\n \t- Mantenimiento, monitoreo y certificación de redes.\n \t- Suministro e instalación de equipos activos y pasivos de red. (rack de comunicaciónes, routers, switches, cables, etc).\n \t- Suministro e instalación de UPS.\n \t- Conectividad para todos sus equipos activos e integración de todos sus serviciós, voz, datos, video, etc...\n2. Servidores\n \t- Instalación de plataformas(windows server/2003/2008/2012/2016\n \t- Linux\n \t-Virtualización de servidores\n \t- Seguridad informatica/firewall\n3. Soporte Técnico\n \t- Mantenimiento preventivo y correctivo de computadores\n \t- Mantenimiento preventivo y correctivo de redes de datos y eléctricas.\n \t- Instalación de software, estaciónes de trabajo Windows 7/8/10/11.\n \t- Soporte remoto y/o presencial a usuario final.\n4. CCTV\n \t- Montaje y configuración de cámaras\n \t- Instalación de DVR/NVR: Configuración de grabadoras digitales o en red(DVR O NVR) para el almacenamiento y gestión de las grabaciones.\n \t- Instalación de cableado o configuración de redes inalámbricas para la conectividad de las cámaras.\n \t- Limpieza de cámaras: Eliminación de polvo y suciedad de las cámaras para asegurar la mejor calidad de imagen.\n \t- Revision de equipos.\n \t- Actualización de firmware.\n \t- Reparación y reemplazo de componentes.\n \t- Monitoreo Remoto.\n5. Seguridad Informática\n \t- Seguridad de la información\n \t- Cyber seguridad\n \t- Asesorias ISO 27001\n \t- Software y hardware para seguridad informática.\n El costo mesual de contrato tendria un valor $2.000.000"]
+        },
+        {
+            "tag":"cotizaciónes_02",
+            "patterns": ["estoy interesado en todos los servicios"],
+            "responses": ["Vale si señor estos serian los servicios que ofrecesmos: \n1. Cableado Estructurado\n \t- Diseño e instalación de cableado estructurado(voz, datos, corriente regulada y normal)\n \t- Mantenimiento, monitoreo y certificación de redes.\n \t- Suministro e instalación de equipos activos y pasivos de red. (rack de comunicaciónes, routers, switches, cables, etc).\n \t- Suministro e instalación de UPS.\n \t- Conectividad para todos sus equipos activos e integración de todos sus serviciós, voz, datos, video, etc...\n2. Servidores\n \t- Instalación de plataformas(windows server/2003/2008/2012/2016\n \t- Linux\n \t-Virtualización de servidores\n \t- Seguridad informatica/firewall\n3. Soporte Técnico\n \t- Mantenimiento preventivo y correctivo de computadores\n \t- Mantenimiento preventivo y correctivo de redes de datos y eléctricas.\n \t- Instalación de software, estaciónes de trabajo Windows 7/8/10/11.\n \t- Soporte remoto y/o presencial a usuario final.\n4. CCTV\n \t- Montaje y configuración de cámaras\n \t- Instalación de DVR/NVR: Configuración de grabadoras digitales o en red(DVR O NVR) para el almacenamiento y gestión de las grabaciones.\n \t- Instalación de cableado o configuración de redes inalámbricas para la conectividad de las cámaras.\n \t- Limpieza de cámaras: Eliminación de polvo y suciedad de las cámaras para asegurar la mejor calidad de imagen.\n \t- Revision de equipos.\n \t- Actualización de firmware.\n \t- Reparación y reemplazo de componentes.\n \t- Monitoreo Remoto.\n5. Seguridad Informática\n \t- Seguridad de la información\n \t- Cyber seguridad\n \t- Asesorias ISO 27001\n \t- Software y hardware para seguridad informática.\n El costo mesual de contrato tendria un valor $2.000.000"]
+        },
+        {
+            "tag": "Información",
+            "patterns": ["Necesito información sobre los servicios que presatan"],
+            "responses": ["Vale si señor estos serian los servicios que ofrecemos: \n1. Cableado Estructurado\n \t- Diseño e instalación de cableado estructurado(voz, datos, corriente regulada y normal)\n \t- Mantenimiento, monitoreo y certificación de redes.\n \t- Suministro e instalación de equipos activos y pasivos de red. (rack de comunicaciónes, routers, switches, cables, etc).\n \t- Suministro e instalación de UPS.\n \t- Conectividad para todos sus equipos activos e integración de todos sus serviciós, voz, datos, video, etc...\n2. Servidores\n \t- Instalación de plataformas(windows server/2003/2008/2012/2016\n \t- Linux\n \t-Virtualización de servidores\n \t- Seguridad informatica/firewall\n3. Soporte Técnico\n \t- Mantenimiento preventivo y correctivo de computadores\n \t- Mantenimiento preventivo y correctivo de redes de datos y eléctricas.\n \t- Instalación de software, estaciónes de trabajo Windows 7/8/10/11.\n \t- Soporte remoto y/o presencial a usuario final.\n4. CCTV\n \t- Montaje y configuración de cámaras\n \t- Instalación de DVR/NVR: Configuración de grabadoras digitales o en red(DVR O NVR) para el almacenamiento y gestión de las grabaciones.\n \t- Instalación de cableado o configuración de redes inalámbricas para la conectividad de las cámaras.\n \t- Limpieza de cámaras: Eliminación de polvo y suciedad de las cámaras para asegurar la mejor calidad de imagen.\n \t- Revision de equipos.\n \t- Actualización de firmware.\n \t- Reparación y reemplazo de componentes.\n \t- Monitoreo Remoto.\n5. Seguridad Informática\n \t- Seguridad de la información\n \t- Cyber seguridad\n \t- Asesorias ISO 27001\n \t- Software y hardware para seguridad informática.\n Por favor indique si esta interesado sobre algun servicio en especifico o si esta interesado en todos los servicios."]
+        }
+    ]
+}
